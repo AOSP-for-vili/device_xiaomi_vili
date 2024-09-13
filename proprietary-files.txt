@@ -115,17 +115,6 @@ vendor/lib/libssrec.so
 vendor/lib/libvideoNS.so
 
 # Camera
-vendor/lib/libcamxexternalformatutils.so
-vendor/lib/libcamxfacialfeatures.so
-vendor/lib/libcamxfdalgo.so
-vendor/lib/libcamxfdengine.so
-vendor/lib/libcamxifestriping.so
-vendor/lib/libcamximageformatutils.so
-vendor/lib/libcamxqsatalgo.so
-vendor/lib/libcamxstatscore.so
-vendor/lib/libcamxswispiqmodule.so
-vendor/lib/libcamxswprocessalgo.so
-vendor/lib/libcamxtintlessalgo.so
 vendor/lib64/HDR10plus.so
 vendor/lib64/camera/com.qti.eeprom.vili_ofilm_ov16a1q_bl24sa64_front_eeprom.so
 vendor/lib64/camera/com.qti.eeprom.vili_sunny_imx355_gt24p64e_ultra_eeprom.so
@@ -522,16 +511,6 @@ vendor/lib64/camera/plugins/com.xiaomi.plugin.supermoon.so
 vendor/lib64/camera/plugins/com.xiaomi.plugin.supernight.so
 
 # Camera-sensors
-vendor/lib/libjpege.so
-vendor/lib/libmctfengine_stub.so
-vendor/lib/libmmcamera_bestats.so
-vendor/lib/libmmcamera_cac3.so
-vendor/lib/libmmcamera_faceproc.so
-vendor/lib/libmmcamera_faceproc2.so
-vendor/lib/libmmcamera_lscv35.so
-vendor/lib/libmmcamera_mfnr.so
-vendor/lib/libmmcamera_mfnr_t4.so
-vendor/lib/libmmcamera_pdpc.so
 vendor/lib64/libjpege.so
 vendor/lib64/libmctfengine_stub.so
 vendor/lib64/libmmcamera_bestats.so
