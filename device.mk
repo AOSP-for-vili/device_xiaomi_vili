@@ -21,6 +21,10 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/audio/audio_policy_engine_product_strategies.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_policy_engine_product_strategies.xml \
     $(LOCAL_PATH)/audio/audio_policy_engine_stream_volumes.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_policy_engine_stream_volumes.xml
 
+# Fingerprint
+PRODUCT_PACKAGES += \
+    vendor.xiaomi.hardware.fx.tunnel@1.0.vendor
+
 # MIUI Camera
 $(call inherit-product-if-exists, vendor/xiaomi/camera/miuicamera.mk)
 
