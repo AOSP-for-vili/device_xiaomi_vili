@@ -195,10 +195,12 @@ vendor/lib64/libanc_superiq.so
 vendor/lib64/libancbase.so
 vendor/lib64/libancbase_rt.so
 vendor/lib64/libbitmlengine.so
+vendor/lib64/libbitmlenginev2.so
 vendor/lib64/libc++_shared.so
 vendor/lib64/libcamera_dirty.so
 vendor/lib64/libcamera_nn_stub.so
 vendor/lib64/libcamera_scene.so
+vendor/lib64/libcamera_scene_dxo.so
 vendor/lib64/libcamerapostproc.so
 vendor/lib64/libcamlog.so
 vendor/lib64/libcapiv2svacnn.so
@@ -210,6 +212,7 @@ vendor/lib64/libcom.xiaomi.debug.so
 vendor/lib64/libcom.xiaomi.grallocutils.so
 vendor/lib64/libcom.xiaomi.metadatautils.so
 vendor/lib64/libcom.xiaomi.pluginutils.so
+vendor/lib64/libcup_preview.so
 vendor/lib64/libcvface_api.so
 vendor/lib64/libfocus.so
 vendor/lib64/libhdrdynamic.so
@@ -246,6 +249,8 @@ vendor/lib64/libofflinelog.so
 vendor/lib64/libopencv.so
 vendor/lib64/libopestriping.so
 vendor/lib64/libos.so
+vendor/lib64/libportrait_blur.so
+vendor/lib64/libpowercore.so
 vendor/lib64/libqll10.so
 vendor/lib64/libqllengine.so;DISABLE_CHECKELF
 vendor/lib64/librelight_only.so
