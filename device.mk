@@ -21,6 +21,12 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/audio/audio_policy_engine_product_strategies.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_policy_engine_product_strategies.xml \
     $(LOCAL_PATH)/audio/audio_policy_engine_stream_volumes.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_policy_engine_stream_volumes.xml
 
+# Dolby Config File
+ifeq ($(TARGET_USES_DOLBY),true)
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/dolby/config/dax-default.xml:$(TARGET_COPY_OUT_VENDOR)/etc/dolby/dax-default.xml
+endif
+
 # Fingerprint
 PRODUCT_PACKAGES += \
     vendor.xiaomi.hardware.fx.tunnel@1.0.vendor

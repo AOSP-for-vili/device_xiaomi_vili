@@ -584,6 +584,25 @@ vendor/etc/mdss_dsi_k3s_42_02_0b_dsc_cmd_mi.xml
 vendor/etc/qdcm_calib_data_xiaomi_42_02_0a_cmd_mode_dsc_dsi_panel.xml
 vendor/etc/qdcm_calib_data_xiaomi_42_02_0b_cmd_mode_dsc_dsi_panel.xml
 
+# Dolby
+vendor/bin/hw/vendor.dolby.hardware.dms@2.0-service
+vendor/etc/init/vendor.dolby.hardware.dms@2.0-service.rc
+vendor/etc/media_codecs_dolby_audio.xml
+vendor/etc/vintf/manifest/manifest_vendor.dolby.hardware.dms.xml
+vendor/lib/libdapparamstorage.so
+vendor/lib/libdeccfg.so
+vendor/lib/libstagefright_soft_ac4dec.so
+vendor/lib/libstagefright_soft_ddpdec.so
+vendor/lib/soundfx/libhwdap.so
+vendor/lib/soundfx/libswgamedap.so
+vendor/lib/soundfx/libswvqe.so
+vendor/lib/vendor.dolby.hardware.dms@2.0.so
+vendor/lib64/libdapparamstorage.so
+vendor/lib64/libdlbdsservice.so
+vendor/lib64/vendor.dolby.hardware.dms@2.0-impl.so
+vendor/lib64/vendor.dolby.hardware.dms@2.0.so
+vendor/lib/libstagefrightdolby.so
+
 # Fingerprint
 vendor/lib64/hw/fingerprint.fpc.so:vendor/lib64/hw/fingerprint.fpc.default.so;DISABLE_CHECKELF
 vendor/lib64/hw/fingerprint.goodix.so:vendor/lib64/hw/fingerprint.goodix.default.so;DISABLE_CHECKELF
