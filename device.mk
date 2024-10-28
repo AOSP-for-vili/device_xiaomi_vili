@@ -21,6 +21,9 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/audio/audio_policy_engine_product_strategies.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_policy_engine_product_strategies.xml \
     $(LOCAL_PATH)/audio/audio_policy_engine_stream_volumes.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_policy_engine_stream_volumes.xml
 
+# Dolby
+TARGET_USES_DOLBY := true
+
 # Dolby Config File
 ifeq ($(TARGET_USES_DOLBY),true)
 PRODUCT_COPY_FILES += \
