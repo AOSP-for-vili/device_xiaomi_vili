@@ -11,8 +11,21 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit from haydn device
 $(call inherit-product, device/xiaomi/vili/device.mk)
 
-# Inherit some common Lineage stuff.
+# Inherit some common RisingOS stuff.
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+
+# RisingOS
+RISING_MAINTAINER=0mar
+PRODUCT_BUILD_PROP_OVERRIDES += \
+    RisingChipset="Thermonuclear Reactor" \
+    RisingMaintainer="0mar"
+TARGET_DEFAULT_PIXEL_LAUNCHER := true
+TARGET_PREBUILT_LAWNCHAIR_LAUNCHER := false
+TARGET_BOOT_ANIMATION_RES := 1080
+TARGET_ENABLE_BLUR := true
+
+# Gapps Flags
+WITH_GMS := true
 
 PRODUCT_BRAND := Xiaomi
 PRODUCT_DEVICE := vili
