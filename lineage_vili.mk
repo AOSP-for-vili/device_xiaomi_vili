@@ -35,7 +35,7 @@ PRODUCT_MODEL := 2107113SG
 PRODUCT_NAME := lineage_vili
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    BuildDesc="vili_global-user 14 UKQ1.231207.002 V816.0.7.0.UKDMIXM release-keys" \
-    BuildFingerprint=Xiaomi/vili_global/vili:14/UKQ1.231207.002/V816.0.7.0.UKDMIXM:user/release-keys
+    BuildDesc="vili_global-user 14 UKQ1.231207.002 V816.0.8.0.UKDMIXM release-keys" \
+    BuildFingerprint=Xiaomi/vili_global/vili:14/UKQ1.231207.002/V816.0.8.0.UKDMIXM:user/release-keys
 
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
